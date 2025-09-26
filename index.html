@@ -8,10 +8,21 @@
 </head>
 <body>
     
-    <h1 id="Strategy">Hello</h1>
+        <div id="Card">
+        <h1 id="Strategy">Hello</h1>
+        </div>
+        <button onClick="window.location.reload();">⌘R</button>
+        <script>
+            var strategy = document.getElementById("strategy")
+        </script>
+    
+   
+    
+    
     <input type="text" id="searchInput" placeholder="search…" autofocus>
 
     <script>
+
         var strategy = document.getElementById("Strategy");
         strategy.innerHTML = "WTF?";
 
@@ -19,13 +30,14 @@
         const Strategies = [
             "chaton",
             "loutre",
-            "canard"
+            "canard",
+
 
         ];
 
-        let liste = Strategies.length;
+        let total = Strategies.length;
         let rando = Math.random(); 
-        let hasar = rando * liste;
+        let hasar = rando * total;
         let choix = Math.floor( hasar );
 
         strategy.innerHTML = Strategies[ choix];

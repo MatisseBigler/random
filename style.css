@@ -1,12 +1,21 @@
 body { 
     font-family: sans-serif;
+    margin: 0;
+    height: 100vh; /* prend toute la hauteur de l’écran */
+    display: flex; 
+    justify-content: center; /* centre horizontalement */
+    align-items: center;     /* centre verticalement */
+    background: #f9f9f9;     /* petit fond clair pour voir l'ombre */
+
 }
 
 #searchInput { 
-    margin: 2rem;
-    width: 20rem;
-    font-size: 1.2rem;
-    padding: 0.5em;
-    opacity: 0.3;
-    
+  width: 20rem;
+  font-size: 1.2rem;
+  padding: 0.5em;
+
+  /* style du rectangle */
+  background-color: #fff;
+  border: 1px solid #000;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
 }
