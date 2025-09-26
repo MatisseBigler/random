@@ -3,6 +3,7 @@ body {
     margin: 0;
     height: 100vh; /* prend toute la hauteur de l’écran */
     display: flex; 
+    flex-direction: column;
     justify-content: center; /* centre horizontalement */
     align-items: center;     /* centre verticalement */
     background: #f9f9f9;     /* petit fond clair pour voir l'ombre */
